@@ -1,0 +1,21 @@
+:root{--bg:#161e32;--panel:#212d4a;--text:#eef1f8;--sub:#b9c3dc;--yel:#ffc933;--line:#33406a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;line-height:1.7;font-size:16px}
+.wrap{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header img{width:56px;height:56px;border-radius:14px}
+header .name{font-size:24px;font-weight:800}
+header .name small{display:block;font-size:14px;font-weight:500;color:var(--sub)}
+h1{font-size:28px;line-height:1.35;margin:0 0 12px}
+h2{font-size:20px;margin:36px 0 10px;color:var(--yel)}
+h3{font-size:17px;margin:24px 0 6px}
+p,li{color:var(--text)}
+.sub{color:var(--sub)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+a{color:var(--yel)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--panel)}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin:-12px 0 24px;font-size:15px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--sub)}
+.table-scroll{overflow-x:auto}
